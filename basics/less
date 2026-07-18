@@ -1,0 +1,35 @@
+# Static table lookup for hostnames.
+# See hosts(5) for details.
+127.0.0.1        localhost
+::1              localhost
+
+ damn just give me a list no fluff
+
+chatgpt.com
+gemini.google.com
+claude.ai
+copilot.microsoft.com
+meta.ai
+perplexity.ai
+grok.com
+you.com
+duck.ai
+phind.com
+andi-search.com
+komo.ai
+deepseek.com
+poe.com
+chat.mistral.ai
+copy.ai
+jasper.ai
+writesonic.com
+textcortex.com
+intercom.com
+tidio.com
+drift.com
+knock-ai.com
+character.ai
+pi.ai
+deepai.org
+proprofs.com
+wati.io	

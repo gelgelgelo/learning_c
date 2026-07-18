@@ -1,3 +1,57 @@
 #include <stdio.h>
 
+int main()
+{
+
+// getting size of each data type
+
+/*	
+ *	i learned that the sizeof function returns size_t type thats why
+ *	i have to use %zu instead of %d i can also use %ld which is long int
+ *	it means it can store double than a normal int.
+ */
+	printf("char size in bytes: %zu\n", sizeof(char));
+	printf("int size in bytes: %zu\n", sizeof(int));
+	printf("float size in bytes: %zu\n", sizeof(float));
+	printf("double size in bytes: %zu\n", sizeof(double));
+	printf("char* size in bytes: %zu\n", sizeof(char*));
+	
+	char letter = 'a';
+	int year = 2005;
+	// floats can only hold half as much as doubles.
+	float pi= 3.14; 
+	// can hold double the capacity of float hence the name.
+	double bigger_pi = 3.1415926535; 
+	char *name = "vladimir putin";
+
+/*
+ *	according to the k&r book theres many way to print a double each has
+ *	its own differences just pick one thats best for the use case
+ */
+	printf("%c\n", letter);
+	printf("%d\n", true);
+	printf("%d\n", false);
+	printf("%d\n", year);
+	printf("%f\n", pi);
+	printf("%f\n", bigger_pi);
+	printf("%s\n", name);
+	
+/*	
+ *	this is allowed but you will get a warning and a undefined behaviour
+ */
+	printf("%d\n", pi);
+	printf("%f\n", year);
+/*
+ *	this is allowed too but i got a non ascii value lol	
+ */
+	printf("%c\n", name);
+/*
+ * 	this throws a segmentation fault i would guess since %s expects a
+ * 	memory address since char* is a pointer that holds a address something
+ * 	like that idk.
+ *
+ *	printf("%s\n", letter);
+ */
+	return 0;
+}
 
