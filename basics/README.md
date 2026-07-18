@@ -5,7 +5,7 @@
 example:  
 ```  
 char  
-bool  
+bool // not really but you can try printing out true or false.
 int  
 float  
 double 
