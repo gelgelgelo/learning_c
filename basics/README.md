@@ -16,7 +16,7 @@ char * //string
 - assign a appropriate value to each variable.
 - print out the value of each variable using `printf()`.
 
-## `io.c`
+## `output.c`
 - get familiar with `printf()`
 - learn about format specifiers and how to print out each data types.
 - assign `3.1415926535` to a double and print only output the first 2 decimals, ex: `3.14`
