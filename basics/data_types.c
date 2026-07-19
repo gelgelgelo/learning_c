@@ -3,8 +3,6 @@
 int main()
 {
 
-// getting size of each data type
-
 /*	
  *	i learned that the sizeof function returns size_t type thats why
  *	i have to use %zu instead of %d i can also use %ld which is long int
@@ -23,8 +21,8 @@ int main()
 	printf("long int size in bytes: %zu\n", sizeof(long int));
 	printf("short int size in bytes: %zu\n", sizeof(short int));
 	printf("size_t size in bytes: %zu\n", sizeof(size_t));
-	printf("size of unsigned int in bytes: %u\n", sizeof(unsigned int));
-	printf("size of long unsigned int in bytes: %u\n",
+	printf("size of unsigned int in bytes: %zu\n", sizeof(unsigned int));
+	printf("size of long unsigned int in bytes: %zu\n",
 		sizeof(long unsigned int));
 	
 	char letter = 'a';
