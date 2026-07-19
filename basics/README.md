@@ -25,7 +25,8 @@ char * //string
 ## `string.c`  
 - learn the difference between `char` and `char *`.
 - `'` vs `"`.
-- experiment with strings learn to concat or copy and etc.  
+- experiment with strings, break stuff.
+- concat or copy or modify strings and etc.
 
 ## `function.c`
 - learn about return types.
