@@ -35,6 +35,11 @@ int minus2(int x)
 	return (int)x - 2;
 }
 
+void minus2_value(int *x)
+{
+	*x - 2;
+}
+
 int main()
 {
 
@@ -63,13 +68,22 @@ int main()
 	int n = 69;
 	int y = minus2(n);
 	int *p_n = &n;
-	int *p_y = &n; 
-	printf("%d:%d\n", y, n);
+	int *p_y = &y; 
+	
 /*
  * this doesnt make sense why are they the in the same memory address?
  * if theyre in the same memory address then that means they should have
  * the same value?
+ *
+ * edit:
+ * fuckkk this is what i get for getting in the flow state this happened to 
+ * me so many times, maybe i should turn on syntax highlighting.
  */
-	printf("%p:%p\n", p_y, p_n);
+
+	printf("y: %d, n: %d\n", y, n);
+	minus2_value(p_n);
+	printf("n's value: %d, and n's mem addr: %p\n", n, &n);
+	printf("y's addr: %p, n's addr: %p\n", p_y, p_n);
+
 }
 
