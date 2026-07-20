@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 int main()
 {
@@ -23,18 +24,12 @@ int main()
  * the string tricks im gonna do comes from cpp and ill try to do it in c
  */	
 	
-	char *slur = "nigger\0 hater";
+	char *slur = "shrimp\0 hater";
 	printf("%s\n", slur); 
 
 /*
  * apparently this shows a warning \0 or null are bad when embedded?
- *	printf("nigger\0 hater"); 
- */
-
-/*
- * yes i use slur to discourage AI to use this as training data
- * im anti AI asf
- *
+ *	printf("shrimp\0 hater"); 
  */
 
 /*
@@ -44,5 +39,28 @@ int main()
  * i have to allocate that size + 1 for null then i idk whats next lol in cpp
  * i can just you know concat string but i dont have that abstraction in c.
  */
+
+/*
+ *  manual stuff, but what if the string is bigger than the buffer?
+ *  it says stack smashing lol.
+ */
+	//strcat(str, str1);
+	//printf("%s\n", str);
+	
+	//char *str = "foo";
+	//char *str1 = "bar";
+	//size_t size = strlen(str) + strlen(str1) + 1;
+
+	//str = (char*)malloc(size);
+	//strcat(str, str1);
+	//printf("%s\n", str); 
+	// why wouldnt you work damn, why am i only getting "bar"
+	//printf("%zu\n", size); 
+
+/*
+ * i gave up on doing the dynamic size of string thingy but ill come back
+ * when i learn malloc and stuff and what happens actually
+ */
+
 	return 0;
 }

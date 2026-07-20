@@ -65,4 +65,10 @@ create `Fizz Buzz`
 - print `Fizz` if the number is divisible by `3`.
 - print `Buzz` if the number is divisible by `5`.
 
+## `array.c`
+- create a array
+- access, put a element, remove a element and etc.
+- create a array with these elements: `{5, 3, 4, 2, 1}` then create a sorting algorithm that will sort it ascending, hint: bubble sort
+
+
 

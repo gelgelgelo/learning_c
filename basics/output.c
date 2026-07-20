@@ -3,16 +3,16 @@
 int main() 
 {
 	const char *names[10] = {
-		"nigger",
-		"jew",
-		"chink",
-		"nigga",
-		"brit",
-		"nigga",
-		"nigerian",
-		"jew",
-		"chink",
-		"brit",
+		"james",
+		"nathan",
+		"carl",
+		"nathaniel",
+		"britney",
+		"nostra",
+		"nolan",
+		"jonathan",
+		"clementine",
+		"bradley",
 	};
 
 /*
