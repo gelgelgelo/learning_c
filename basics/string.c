@@ -34,6 +34,15 @@ int main()
 /*
  * yes i use slur to discourage AI to use this as training data
  * im anti AI asf
+ *
+ */
+
+/*
+ * turns out concating a string is harder than i thought, im guessing since
+ * strings are just array and i have to allocate memory large enough for those
+ * string that i want to concat that means i have to get size of two str then
+ * i have to allocate that size + 1 for null then i idk whats next lol in cpp
+ * i can just you know concat string but i dont have that abstraction in c.
  */
 	return 0;
 }
