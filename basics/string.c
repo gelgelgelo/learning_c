@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
 
 int main()
 {
@@ -24,8 +22,8 @@ int main()
  * the string tricks im gonna do comes from cpp and ill try to do it in c
  */	
 	
-	char *slur = "shrimp\0 hater";
-	printf("%s\n", slur); 
+	char *roach = "shrimp\0 hater";
+	printf("%s\n", roach); 
 
 /*
  * apparently this shows a warning \0 or null are bad when embedded?
