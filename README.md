@@ -8,7 +8,7 @@ start with the `basics` directory, `basics/README.md` provides a clear guide on 
 
 ## how to learn properly
 
-most of the time this guide forces you to explore and learn things by yourself this is intentional so you retain most of the material you consume also using a LLM is strictly prohibited, i changed my mind on the no LLM thing since ive encountered stuff where i look things up and cant find the answer for my question but LLMs should only be used to clarify or understand things you dont understand or no idea whats happening under the hood.
+most of the time this guide forces you to explore and learn things by yourself this is intentional so you retain most of the material you consume also using a LLM is strictly prohibited.
 
 #### documenting and taking down notes
 each part the guide says you should experiment and try things out yourself that why you should leave out comments and documentation inside the file it self so you can  use it as reference in the future, for example in `strings.c` what would happen if you use `'` in `char *`.
