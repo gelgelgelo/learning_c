@@ -37,7 +37,7 @@ int minus2(int x)
 
 void minus2_value(int *x)
 {
-	*x - 2;
+	*x -= 2;
 }
 
 int main()
@@ -82,6 +82,15 @@ int main()
 
 	printf("y: %d, n: %d\n", y, n);
 	minus2_value(p_n);
+
+/*
+ *  why is n still 69, shouldnt it be 67 since i changed its value
+ *  by pointer to its addr?
+ *
+ *  edit:
+ *  turns out i have to reassign the value of *x after doing the operation
+ *  which now makes sense.
+ */
 	printf("n's value: %d, and n's mem addr: %p\n", n, &n);
 	printf("y's addr: %p, n's addr: %p\n", p_y, p_n);
 
