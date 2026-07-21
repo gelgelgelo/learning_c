@@ -77,7 +77,7 @@ int main()
  *
  * edit:
  * fuckkk this is what i get for getting in the flow state this happened to 
- * me so many times, maybe i should turn on syntax highlighting.
+ * me so many times, maybe i should turn on syntax highlighting. NOPE
  */
 
 	printf("y: %d, n: %d\n", y, n);
@@ -93,6 +93,8 @@ int main()
  */
 	printf("n's value: %d, and n's mem addr: %p\n", n, &n);
 	printf("y's addr: %p, n's addr: %p\n", p_y, p_n);
+
+	return 0;
 
 }
 
