@@ -95,6 +95,5 @@ int main()
 	printf("y's addr: %p, n's addr: %p\n", p_y, p_n);
 
 	return 0;
-
 }
 

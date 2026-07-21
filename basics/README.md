@@ -69,6 +69,3 @@ create `Fizz Buzz`
 - create a array
 - access, put a element, remove a element and etc.
 - create a array with these elements: `{5, 3, 4, 2, 1}` then create a sorting algorithm that will sort it ascending, hint: bubble sort
-
-
-
