@@ -1,5 +1,11 @@
 # learning c  
 
+## focusing more on the fun stuff  
+
+i think this repo is good but its too slow and not that stimulating for me to continue since i really want to get into bin exploitation and i cant do that if my curriculum is too slow or too boring or else ill get distracted by things that dont matter ive learned a lot but this is the end.  
+
+instead of learning and creating a learning path ill just learn and document first my experience about my journey to bin exploitation after that ill release a better and more enjoyable learning path, see ya.  
+
 this repository uses this [video](https://www.youtube.com/watch?v=rJrd2QMVbGM) as reference.  
 
 ## how to get started with C
